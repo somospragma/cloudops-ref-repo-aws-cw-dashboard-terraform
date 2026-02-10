@@ -1,0 +1,199 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files, which are likely to contain sensitive data, such as
+# password, private keys, and other secrets. These should not be part of version 
+# control as they are data points which are potentially sensitive and subject 
+# to change depending on the environment.
+*.tfvars
+*.tfvars.json
+
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include override files you do wish to add to version control using negated pattern
+# !example_override.tf
+
+# Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
+*tfplan*
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore lock files (optional - some teams prefer to commit this)
+.terraform.lock.hcl
+
+# Ignore backup files
+*.backup
+*.bak
+*~
+
+# Ignore log files
+*.log
+
+# Ignore OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore AWS credentials
+.aws/
+credentials
+config
+
+# Ignore SSH keys
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Ignore zip files and archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Ignore compiled files
+*.pyc
+*.pyo
+__pycache__/
+*.class
+*.o
+*.so
+
+# Ignore package files
+node_modules/
+vendor/
+*.egg-info/
+dist/
+build/
+
+# Ignore test files and coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+coverage/
+*.cover
+
+# Ignore documentation build files
+docs/_build/
+site/
+
+# Ignore Terraform plugin cache
+.terraform.d/
+
+# Ignore generated files
+generated/
+output/
+
+# Ignore local testing scripts
+test-*.sh
+local-*.sh
+
+# Ignore sensitive data files
+secrets/
+*.secret
+*.secrets
+
+# Ignore Terraform module cache
+.terraform.modules/
+
+# Ignore Terraform provider cache
+.terraform.providers/
+
+# Ignore any local configuration
+local.tf
+local.tfvars
+
+# Ignore any personal notes
+notes.txt
+TODO.txt
+NOTES.md
+
+# Ignore any local scripts
+run-local.sh
+deploy-local.sh
+
+# Ignore Terraform graph files
+*.dot
+*.svg
+*.png
+
+# Ignore Terraform debug files
+TF_LOG*.txt
+
+# Ignore any local data
+data/
+*.csv
+*.json.backup
+
+# Ignore any local certificates
+*.crt
+*.cer
+*.der
+*.p12
+*.pfx
+
+# Ignore any local kubeconfig
+kubeconfig
+*.kubeconfig
+
+# Ignore Checkov results
+.checkov/
+checkov_results.txt
+
+# Ignore Trivy results
+.trivy/
+trivy_results.txt
+
+# Ignore Terraform docs
+.terraform-docs.yml
+
+# Ignore pre-commit hooks
+.pre-commit-config.yaml
+
+# Ignore any local patches
+*.patch
+*.diff
